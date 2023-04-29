@@ -2,6 +2,7 @@ import { ChangeEvent, useState } from "react";
 import axios from "axios";
 import { CityWeather } from "../models/ICityWeather";
 import { CityList } from "../components/CityList";
+import { Navbar } from "../components/Navbar";
 
 export function SearchCity() {
   const [searchText, setSearchText] = useState("");
@@ -22,6 +23,7 @@ export function SearchCity() {
 
   return (
     <>
+      <Navbar></Navbar>
       <h1>Se vädret!</h1>
       <p>Sök på en stad</p>
       <input
