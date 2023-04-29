@@ -1,0 +1,18 @@
+http://api.weatherapi.com/v1/current.json?key=4498031c7d2a498cb9a102202232804&q=SÖKTEXT
+
+http://api.weatherapi.com/v1/search.json?key=4498031c7d2a498cb9a102202232804&q=SÖKTEXT
+
+key: 4498031c7d2a498cb9a102202232804
+
+
+
+
+
+weatherstack
+key: 84ad65616961e09410a2e15be399db8a
+
+exempel för current:
+
+http://api.weatherstack.com/current
+?access_key = 84ad65616961e09410a2e15be399db8a
+&query = New York

@@ -1,0 +1,16 @@
+#root {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("https://www.tapet.com/media/catalog/product/cache/871f459736130e239a3f5e6472128962/w/0/w05109-small.jpg");
+  background-position: left;
+  background-size: cover;
+  text-align: center;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
